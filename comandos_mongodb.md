@@ -18,58 +18,18 @@ db.mensajes.insertMany([
 ]);
 
 //2
-db.products.insertMany([
-    {
-        title: "Avatar: The Way of Water",
-        price: 999,
-        url: "https://pbs.twimg.com/media/FiHA41XVsAQYjS4?format=jpg&name=900x900"
-    },
-    {
-        title: "Avengers 1",
-        price: 900,
-        url: "https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2015/02/avengers-1.jpg?ssl=1"
-    },
-    {
-        title: "Avatar",
-        price: 1550,
-        url: "https://i.pinimg.com/originals/6d/aa/c2/6daac2a42ad7d987c6c102eb88fd94eb.jpg"
-    },
-    {
-        title: "Yo antes de ti",
-        price: 670,
-        url: "https://pbs.twimg.com/media/CaOKqerXEAACYWN.jpg"
-    },
-    {
-        title: "Rápidos y Furiosos 7",
-        price: 4578,
-        url: "https://www.themoviedb.org/t/p/original/wnfQmn1f1v0P8I27F2qsqOM462Q.jpg"
-    },
-    {
-        title: "Spiderman: No Way Home",
-        price: 5000,
-        url: "https://img.ecartelera.com/noticias/fotos/70100/70190/1.jpg"
-    },
-    {
-        title: "Iron Man 1",
-        price: 158,
-        url: "https://i.pinimg.com/originals/10/f9/cc/10f9cc09b38a919f656a0912c0d5612c.jpg"
-    },
-    {
-        title: "Avengers: End Game",
-        price: 4999,
-        url: "https://quenoticias.com/wp-content/uploads/2019/03/AvengersEndgame.jpg"
-    },
-    {
-        title: "Avengers: Infinity War",
-        price: 2854,
-        url: "https://pbs.twimg.com/media/DamPnPIV4AAzaWn.jpg:large"
-    },
-    {
-        title: "Guardians of the Galaxy: Vol. 1",
-        price: 1653,
-        url: "https://m.media-amazon.com/images/I/71lbFfxfMtL._AC_UF894,1000_QL80_.jpg"
-    }
-])
+db.productos.insertMany([
+    { title: "Avatar: The Way of Water", price: 999, url: "https://pbs.twimg.com/media/FiHA41XVsAQYjS4?format=jpg&name=900x900" },
+    { title: "Avengers 1", price: 900, url: "https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2015/02/avengers-1.jpg?ssl=1" },
+    { title: "Avatar", price: 1550, url: "https://i.pinimg.com/originals/6d/aa/c2/6daac2a42ad7d987c6c102eb88fd94eb.jpg" },
+    { title: "Yo antes de ti", price: 670, url: "https://pbs.twimg.com/media/CaOKqerXEAACYWN.jpg" },
+    { title: "Rápidos y Furiosos 7", price: 4578, url: "https://www.themoviedb.org/t/p/original/wnfQmn1f1v0P8I27F2qsqOM462Q.jpg" },
+    { title: "Spiderman: No Way Home", price: 5000, url: "https://img.ecartelera.com/noticias/fotos/70100/70190/1.jpg" },
+    { title: "Iron Man 1", price: 158, url: "https://i.pinimg.com/originals/10/f9/cc/10f9cc09b38a919f656a0912c0d5612c.jpg" },
+    { title: "Avengers: End Game", price: 4999, url: "https://quenoticias.com/wp-content/uploads/2019/03/AvengersEndgame.jpg" },
+    { title: "Avengers: Infinity War", price: 2854, url: "https://pbs.twimg.com/media/DamPnPIV4AAzaWn.jpg:large" },
+    { title: "Guardians of the Galaxy: Vol. 1", price: 1653, url: "https://m.media-amazon.com/images/I/71lbFfxfMtL._AC_UF894,1000_QL80_.jpg" },
+]);
 
 //3
 db.mensajes.find().pretty();
